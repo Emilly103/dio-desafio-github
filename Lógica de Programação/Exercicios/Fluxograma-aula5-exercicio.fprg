@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="GRAFICA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-14 08:24:05 "/>
+        <attribute name="created" value="R1JBRklDQTtERVNLVE9QLUNKVVE4OFA7MjAyMi0wNC0xNDsiMDY6MTY6MTQgIjsyNzYz"/>
+        <attribute name="edited" value="R1JBRklDQTtERVNLVE9QLUNKVVE4OFA7MjAyMi0wNC0xNDsiMDg6MjQ6MDUgIjsxOzI4NzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="n1, n2, n3, n4, media" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o seu nome: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite a n1: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite a nota 2: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Digite a nota 3: &quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;Digite a nota 4: &quot;" newline="True"/>
+            <input variable="n4"/>
+            <assign variable="media" expression="(n1+n2+n3+n4)/4"/>
+            <output expression="&quot;O seu nome &#233;: &quot; &amp; nome &amp; &quot; e o sua m&#233;dia &#233;: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
